@@ -1,0 +1,156 @@
+/* TABLET & MOBILE (≤ 1024px) */
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  .nav-links {
+    display: none;
+  }
+
+  .menu-btn {
+    margin-left: auto;
+    display: block;
+  }
+
+  /* Hero */
+  .hero {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  /* Ecosystem */
+  .ecosystem {
+    padding: 120px 0;
+  }
+
+  .ecosystem-row {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .ecosystem-text h2 {
+    font-size: 28px;
+  }
+
+  /* Pricing */
+  .pricing-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .pricing-stats {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Education */
+  .education-row {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE (≤ 768px)*/
+@media (max-width: 768px) {
+
+  /* Hero */
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+
+  /* Media logos */
+  .media-container img {
+    max-width: 100%;
+  }
+
+  /* Pricing */
+  .pricing-stats {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .stat {
+    text-align: left;
+  }
+
+  .price {
+    font-size: 40px;
+  }
+
+  /* Account CTA */
+  .account-cta h2 {
+    font-size: 26px;
+  }
+
+  .account-cta p {
+    font-size: 16px;
+  }
+
+  /* Footer */
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    padding-top: 24px;
+  }
+}
+
+/*SMALL MOBILE (≤ 480px)*/
+@media (max-width: 480px) {
+
+  /* Navbar */
+  .navbar-container {
+    padding: 16px;
+  }
+
+  /* Hero image spacing */
+  .hero-image {
+    margin-bottom: 40px;
+  }
+
+  /* Section padding */
+  .ecosystem,
+  .pricing,
+  .education,
+  .account-cta {
+    padding: 80px 0;
+  }
+
+  /* Footer brand */
+  .footer-brand img {
+    height: 20px;
+  }
+
+  .social-links {
+    max-width: 100%;
+  }
+}
